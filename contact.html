@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kedai Solata | Contact</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo1">Kedai Solata</div>
+      <div class="toggle"></div>
+      <div class="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+          <footer>
+          <a href="" class="footer">&#169; by <a href="" class="footer">christiano</a></a>
+        </footer>
+        <div class="social-bar">
+          <ul>
+            <li>
+              <a href="https://facebook.com">
+                <img src="images/facebook.png" target="_blank" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com">
+                <img src="images/twitter.png" target="_blank" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com">
+                <img src="images/instagram.png" target="_blank" alt="" />
+              </a>
+            </li>
+          </ul>
+          <a href="mailto:you@email.com" class="email-icon">
+            <img src="images/email.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="title">
+        <h1>Contact</h1>
+        <p>
+          Kami selalu siap membantu dan merespon pertanyaan Anda. Jangan sungkan untuk menghubungi kami.
+        </p>
+      </div>
+      <div class="contact">
+        <div class="contact-form">
+          <form onsubmit="sendEmail(); reset(); return false;">
+            <div class="row">
+              <div class="input50">
+                <input type="text" id="nama" placeholder="Nama" required/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input50">
+                <input type="text" id="email" placeholder="Email" required/>
+              </div>
+              <div class="input50">
+                <input type="text" id="subjek" placeholder="Subjek" required/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input100">
+                <textarea placeholder="Pesan" id="pesan" cols="30" rows="10"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input100">
+                <input type="submit" value="Kirim" />
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <div class="info-box">
+            <img src="images/address.png" class="contact-icon" alt="" />
+            <div class="details">
+              <h4>Alamat</h4>
+              <p>Pasar Modern Sinpasa Blok F 70. Summarecon Bekasi. Bekasi</p>
+            </div>
+          </div>
+          <div class="info-box">
+            <img src="images/email.png" class="contact-icon" alt="" />
+            <div class="details">
+              <h4>Email</h4>
+              <a href="mailto:anyone@example.com">kedaisolata@gmail.com</a>
+              <a href="mailto:anyone@example.com">kontak.kedaisolata@gmail.com</a>
+            </div>
+          </div>
+          <div class="info-box">
+            <img src="images/call.png" class="contact-icon" alt="" />
+            <div class="details">
+              <h4>Call</h4>
+              <a href="tel:+6281219676150">+62 812 19676150</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+  </body>
+</html>
